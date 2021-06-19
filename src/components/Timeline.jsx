@@ -1,6 +1,6 @@
 import React from 'react'
 import TimelineCard from './TimelineCard'
-import styles from './Timeline.css'
+import './Timeline.css'
 
 export default function Timeline() {
   return (

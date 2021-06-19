@@ -1,4 +1,4 @@
-import styles from './TimelineCard.css'
+import './TimelineCard.css'
 
 export default function TimelineBlock({
   description,
