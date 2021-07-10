@@ -1,10 +1,11 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Timeline from "./components/Timeline";
+import BackgroundImage  from './assets/background.jpg';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{backgroundImage: `url(${BackgroundImage})`, boxFit: 'cover', height: '100vh' }}>
       <Navbar/>
       <div class="container body">
         <div class="resume-box">
@@ -31,7 +32,9 @@ function App() {
         <img class="resume-img" src="tuborg.jpg" alt="Øl" />
       </div>
 
-      <Timeline/>
+      <div>
+        <Timeline/>
+      </div>
     </div>
   );
 }
