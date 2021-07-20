@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -6,8 +7,8 @@ export default function Navbar() {
       <div class="container row-between">
         <h1 class="navbar-title">Henrik Kristian Thomsen</h1>
         <div>
-{/*           <a href="index.html">Home</a>
-          <a href="contact.html">Contact</a> */}
+          <Link to="/">Home </Link>
+          <Link to="/timeline">Timeline </Link>
         </div>
       </div>
     </nav>
