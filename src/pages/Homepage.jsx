@@ -25,7 +25,7 @@ export default function Homepage() {
                         thesis.
                     </p>
                 </div>
-                <img class="resume-img" src="tuborg.jpg" alt="Øl" />
+                <img class="resume-img" src="Billede Henrik.jpg" alt="Øl" />
             </div>
 
 
